@@ -1,4 +1,4 @@
-//https://scotch.io/tutorials/use-ejs-to-template-your-node-application
+
 // app.js
 // load the things we need
 
@@ -28,6 +28,10 @@ const app = express();
   app.get('/market', (req,res) => {
     res.render('pages/market');
     });
+// sample page
+  app.get('/search', (req,res) => {
+      res.render('//https://scotch.io/tutorials/use-ejs-to-template-your-node-application');
+     });
 
 // run the server
   app.listen(8080, () => {
