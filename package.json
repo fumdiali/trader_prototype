@@ -1,0 +1,23 @@
+{
+  "name": "trader",
+  "version": "1.0.0",
+  "description": "simple web app for trade by barter",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "trade",
+    "barter",
+    "buy",
+    "sell",
+    "exchange",
+    "market"
+  ],
+  "author": "patrick c diali",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.2"
+  }
+}
